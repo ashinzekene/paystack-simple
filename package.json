@@ -1,0 +1,28 @@
+{
+  "name": "paystack-simple",
+  "version": "0.0.1",
+  "description": "A Framework/Library agnostic paystack wrapper",
+  "main": "paystack.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ashinzekene/paystack-simple.git"
+  },
+  "keywords": [
+    "paystack",
+    "payment",
+    "react",
+    "angular",
+    "vue",
+    "transaction",
+    "money"
+  ],
+  "author": "Ashinze Ekene",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/ashinzekene/paystack-simple/issues"
+  },
+  "homepage": "https://github.com/ashinzekene/paystack-simple#readme"
+}
