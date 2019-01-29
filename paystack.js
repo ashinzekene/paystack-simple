@@ -15,6 +15,7 @@ const Paystack = () => {
     }
     const rejectPromise = setTimeout(reject, timeout);
     const script = document.createElement('script');
+    script.setAttribute('type', 'text/javascript');
     document.body.appendChild(script);
     script.onload = () => {
       clearTimeout(rejectPromise);
