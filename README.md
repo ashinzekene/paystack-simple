@@ -71,7 +71,8 @@ paymentInstance.pay() // Pay
 
 ```
 
-### What's Cool?
+## What's Cool?
 - Less than 1kb
 - Framework/Library agnostic
 - Simple API
+- Intellisense support
