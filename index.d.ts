@@ -6,6 +6,10 @@ declare module 'paystack-simple' {
   }
   
   type InitOptions = {
+    /**
+     * Timeout before throwing load error
+     * **Default: 10000**
+     */
     timeout?: number
   };
   
@@ -75,5 +79,6 @@ declare module 'paystack-simple' {
   }
 
   const Paystack: () => PaystackInstance;
+  export const setGlobalConfig: (options: Partial<PaystackOptions>) => void
   export default Paystack;
 }
