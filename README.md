@@ -1,5 +1,5 @@
 # paystack-simple
-<1kb Framework/Library agnostic paystack wrapper
+~1kb Framework/Library agnostic paystack wrapper
 
 
 ## USAGE
