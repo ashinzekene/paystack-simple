@@ -1,6 +1,16 @@
 # paystack-simple
-~1kb Framework/Library agnostic paystack wrapper
+![Paystack-simple bundle size](https://badgen.net/bundlephobia/min/paystack-simple) 
+![MIT](https://badgen.net/badge/license/MIT/blue)
+![NPM](https://badgen.net/npm/v/paystack-simple)
 
+<1kb Framework/Library agnostic paystack wrapper
+
+
+## INSTALLATION
+
+```
+npm install paystack-simple
+```
 
 ## USAGE
 
