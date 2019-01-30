@@ -2,18 +2,16 @@ const PAYSTACK_URL = 'https://js.paystack.co/v1/inline.js';
 
 const paystackLoaded = () => window.PaystackPop && typeof window.PaystackPop.setup === 'function';
 
-let globalConfig = {}
+let globalConfig = {};
 export const setGlobalConfig = (obj) => {
   globalConfig = { ...globalConfig, ...obj };
-}
+};
 
 const Paystack = () => {
   let instanceOptions = {};
   const init = ({ timeout = 10000 } = {}) => new Promise((resolve, reject) => {
-    if (paystackLoaded()) {
-      resolve(new Error('Could not fetch Paystack script'));
-    }
-    const rejectPromise = setTimeout(reject, timeout);
+    if (paystackLoaded()) resolve();
+    const rejectPromise = setTimeout(reject, timeout, new Error('Could not fetch Paystack script'));
     const script = document.createElement('script');
     script.setAttribute('type', 'text/javascript');
     document.body.appendChild(script);
