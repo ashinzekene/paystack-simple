@@ -27,7 +27,7 @@ const Paystack = () => {
   };
 
   const pay = async () => {
-    if (!paystackLoaded) await init();
+    await init();
     const instance = window.PaystackPop.setup(instanceOptions);
     if (!instanceOptions.container) instance.openIframe();
   };
