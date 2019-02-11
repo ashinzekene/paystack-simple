@@ -1,6 +1,6 @@
 {
   "name": "paystack-simple",
-  "version": "0.0.4",
+  "version": "0.0.5",
   "description": "A Framework/Library agnostic paystack wrapper",
   "main": "dist/paystack.js",
   "scripts": {
