@@ -2,6 +2,7 @@
 ![Paystack-simple bundle size](https://bundlephobia.com/result?p=paystack-simple) 
 ![MIT](https://badgen.net/badge/license/MIT/blue)
 ![NPM](https://www.npmjs.com/package/paystack-simple)
+[![Build Status](https://travis-ci.com/ashinzekene/paystack-simple.svg)](https://travis-ci.com/ashinzekene/paystack-simple)
 
 <1kb Framework/Library agnostic paystack wrapper
 
