@@ -2,9 +2,10 @@
   "name": "paystack-simple",
   "version": "0.0.4",
   "description": "A Framework/Library agnostic paystack wrapper",
-  "main": "paystack.js",
+  "main": "dist/paystack.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "build": "webpack --config webpack.config.js",
+    "test": "cypress run"
   },
   "repository": {
     "type": "git",
@@ -26,8 +27,11 @@
   },
   "homepage": "https://github.com/ashinzekene/paystack-simple#readme",
   "devDependencies": {
+    "cypress": "^3.1.5",
     "eslint": "^5.12.1",
     "eslint-config-airbnb-base": "^13.1.0",
-    "eslint-plugin-import": "^2.16.0"
+    "eslint-plugin-import": "^2.16.0",
+    "webpack": "4.29.3",
+    "webpack-cli": "3.2.3"
   }
 }
